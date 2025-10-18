@@ -4,7 +4,7 @@
 
 ## 🛑 PENTING: LISENSI DAN HAK CIPTA
 
-Seluruh isi repositori ini dilindungi hak cipta (Copyright) oleh [Masukkan Nama Anda/Nama Tim Anda]. Kode ini didistribusikan di bawah lisensi **UNLICENSED**.
+Seluruh isi repositori ini dilindungi hak cipta (Copyright) oleh [https://t.me/AirdropWhalesAcademy]. Kode ini didistribusikan di bawah lisensi **UNLICENSED**.
 
 **Anda tidak diizinkan untuk:**
 * Membuat ulang (remake), menyalin, atau mendistribusikan ulang kode ini.
