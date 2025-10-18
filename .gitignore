@@ -1,0 +1,16 @@
+
+# Folder module, jangan di-upload!
+node_modules/
+
+# File akun hasil bot
+dapcoin_accounts.json
+
+# Skrip asli kamu (rahasia)
+dapcoin.js
+
+# Proxy kamu (rahasia)
+proxy.txt
+
+# File lisensi otomatis
+*.LICENSE.txt
+

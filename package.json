@@ -1,0 +1,23 @@
+{
+  "name": "dap-coin-reff",
+  "version": "1.0.0",
+  "main": "dapcoin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "axios": "^1.12.2",
+    "bs58": "^4.0.1",
+    "cfonts": "^3.3.1",
+    "https-proxy-agent": "^7.0.6",
+    "inquirer": "^8.2.7",
+    "socks-proxy-agent": "^8.0.5",
+    "tweetnacl": "^1.0.3",
+    "user-agents": "^1.1.669"
+  }
+}
