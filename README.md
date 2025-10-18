@@ -21,8 +21,8 @@ To get started with the DAPCOIN Airdrop Bot:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_GITHUB_USERNAME/dapcoin-airdrop-bot.git](https://github.com/YOUR_GITHUB_USERNAME/dapcoin-airdrop-bot.git)
-    cd dapcoin-airdrop-bot
+    git clone https://github.com/whale2earn/Dapcoin-Angry-Auto-Reff.git
+    cd Dapcoin-Angry-Auto-Reff
     ```
 
 2.  **Install the dependencies:**
@@ -54,4 +54,14 @@ File ini hanya diperlukan jika Anda memilih untuk menggunakan proxy saat menjala
 To start the bot, run the following command:
 
 ```bash
-npm start
+node dapcoin.js
+
+When you start, the script will guide you through the configuration prompts:
+
+Pilihan Proxy: Apakah Anda ingin menggunakan proxy (proxy.txt).
+
+Jenis Proxy: Rotating atau Static.
+
+Jumlah Akun: Berapa banyak akun yang akan diproses.
+
+Kode Undangan: Kode referral yang akan digunakan.
