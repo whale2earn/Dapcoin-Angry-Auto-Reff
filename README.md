@@ -56,12 +56,4 @@ To start the bot, run the following command:
 ```bash
 node dapcoin.js
 
-## When you start, the script will guide you through the configuration prompts:
 
-Pilihan Proxy: Apakah Anda ingin menggunakan proxy (proxy.txt).
-
-Jenis Proxy: Rotating atau Static.
-
-Jumlah Akun: Berapa banyak akun yang akan diproses.
-
-Kode Undangan: Kode referral yang akan digunakan.
