@@ -1,19 +1,57 @@
-# Bot Auto-Refferal Dapcoin
+# DAPCOIN Airdrop Bot 🤖
 
-Bot auto-registrasi dan daily check-in untuk airdrop Deaf Angry Parrot (DAP) di Solana.
+> A bot for automating DapCoin airdrop interactions, including wallet generation, registration, and daily check-in with proxy support.
 
-## Tutorial
-Full Tutorial Join [https://t.me/AirdropWhalesAcademy)
+## 🛑 PENTING: LISENSI DAN HAK CIPTA
 
-## Cara Instalasi
+Seluruh isi repositori ini dilindungi hak cipta (Copyright) oleh [Masukkan Nama Anda/Nama Tim Anda]. Kode ini didistribusikan di bawah lisensi **UNLICENSED**.
 
-1.  **Install Node.js:** Unduh dan install versi LTS dari [nodejs.org](https://nodejs.org/).
-2.  **Buat File Proxy:** Buat file bernama `proxy.txt` di folder ini dan isi dengan proksi kamu (satu per baris).
-3.  **Install Module:** Buka terminal di folder ini dan jalankan:
+**Anda tidak diizinkan untuk:**
+* Membuat ulang (remake), menyalin, atau mendistribusikan ulang kode ini.
+* Memodifikasi kode ini untuk tujuan komersial atau publikasi ulang tanpa izin tertulis.
+
+## Requirements
+
+1.  **Node.js** (version 16 or higher)
+2.  **npm** (Node package manager)
+
+## Installation
+
+To get started with the DAPCOIN Airdrop Bot:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_GITHUB_USERNAME/dapcoin-airdrop-bot.git](https://github.com/YOUR_GITHUB_USERNAME/dapcoin-airdrop-bot.git)
+    cd dapcoin-airdrop-bot
+    ```
+
+2.  **Install the dependencies:**
     ```bash
     npm install
     ```
-4.  **Jalankan Bot:**
-    ```bash
-    node dapcoin.js
+
+## Configuration
+
+Before running the bot, set up your optional configuration files.
+
+### 1. proxy.txt (Optional)
+
+File ini hanya diperlukan jika Anda memilih untuk menggunakan proxy saat menjalankan bot. Bot Anda mendukung mode Rotating (berputar) dan Static (menggunakan proxy satu kali) untuk format HTTP/HTTPS dan SOCKS5.
+
+* Buat file **`proxy.txt`** di *root* proyek Anda.
+* Tambahkan detail proxy Anda. Setiap baris harus memiliki format:
     ```
+    host:port:username:password
+    ```
+* **Example:**
+    ```
+    123.45.67.89:8888:userku:passku
+    123.45.67.89:8889:userlain:passlain
+    ```
+
+## Running the Bot
+
+To start the bot, run the following command:
+
+```bash
+npm start

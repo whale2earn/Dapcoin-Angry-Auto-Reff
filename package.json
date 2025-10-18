@@ -1,19 +1,26 @@
 {
-  "name": "dap-coin-reff",
+  "name": "dapcoin-airdrop-bot",
   "version": "1.0.0",
+  "description": "A bot for automating DapCoin airdrop interactions, including wallet generation, registration, and daily check-in with proxy support.",
   "main": "dapcoin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dapcoin.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "dapcoin",
+    "airdrop",
+    "solana",
+    "automation",
+    "node.js"
+  ],
+  "author": "Whale2earn",
+  "license": "UNLICENSED", 
   "dependencies": {
     "@solana/web3.js": "^1.98.4",
     "axios": "^1.12.2",
     "bs58": "^4.0.1",
     "cfonts": "^3.3.1",
+    "chalk": "^4.1.2",
     "https-proxy-agent": "^7.0.6",
     "inquirer": "^8.2.7",
     "socks-proxy-agent": "^8.0.5",
